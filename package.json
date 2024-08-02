@@ -7,17 +7,6 @@
     "dev": "gulp"
   },
   "miniprogram": "dist",
-  "jest": {
-    "testEnvironment": "jsdom",
-    "testURL": "https://jest.test",
-    "collectCoverageFrom": [
-      "dist/**/*.js"
-    ],
-    "moduleDirectories": [
-      "node_modules",
-      "dist"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/liiiiiiu/weapp-copyright"
