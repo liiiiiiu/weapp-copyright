@@ -15,7 +15,7 @@ npm i weapp-copyright
 ## 使用
 
 | property | 类型  | 描述 |
-|  ----  | ----  |
+|  ----  | ----  | ----  |
 | prefix | String | 前缀名，默认为 Copyright |
 | name | String | 版权所属名 |
 | startYear | Number | 开始年份，默认为当前年份 |
