@@ -1,0 +1,11 @@
+/* components/Copyright/Copyright.wxss */
+
+.copyright {
+  font-size: 0.8rem;
+  color: #666;
+  text-align: center;
+}
+
+.copyright .gutter {
+  margin: 0 2px;
+}

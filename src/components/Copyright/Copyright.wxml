@@ -1,0 +1,14 @@
+<!--components/Copyright/Copyright.wxml-->
+<view id="copyright" class="copyright" style="{{ customStyle }}">
+  <block wx:if="{{ !useCustomContent }}">
+    <text wx:if="{{ prefix }}">{{ prefix }}</text>
+    <text wx:if="{{ prefix }}" class="gutter"></text>
+    <text>©</text>
+    <text wx:if="{{ _startYear }}" class="gutter"></text>
+    <text wx:if="{{ _startYear }}">{{ _startYear }}</text>
+    <text wx:if="{{ endYear }}">-{{ endYear }}</text>
+    <text wx:if="{{ name }}" class="gutter"></text>
+    <text wx:if="{{ name }}">{{ name }}</text>
+  </block>
+  <slot wx:else />
+</view>
